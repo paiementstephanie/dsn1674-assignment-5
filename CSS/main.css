@@ -63,11 +63,13 @@ ol a {
 	text-decoration: none;
 	border-radius: 10px;
 	text-align: center;
+	display: inline-block;
 }
 
 ol li{
 	border: 2px solid #a93f35;
 	padding: 0em 2em ;
+	display:inline-block;
 
 
 }
