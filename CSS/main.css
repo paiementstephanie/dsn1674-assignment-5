@@ -1,4 +1,21 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 body{
 font-family: 'Merriweather', serif;
 }
 
+h1, h2 {
+	color: white;
+	background-color:#cd5b34;
+}
+
+header {
+	background-color: #cd5b34;
+	padding: 0.5em;
+}
