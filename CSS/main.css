@@ -10,9 +10,13 @@ body{
 font-family: 'Merriweather', serif;
 }
 
-h1, h2 {
+h1, {
 	color: white;
 	background-color:#cd5b34;
+}
+
+h2{
+	color:white;
 }
 
 header {
@@ -27,4 +31,20 @@ figcaption {
 footer{
 	background-color:#cd5b34;
 	color: #dda999;
+}
+
+div {
+	background-color:#d98156
+}
+
+.oats{
+	color:white;
+}
+
+.corn{
+	color:white;
+}
+
+.rice{
+	color:white;
 }
