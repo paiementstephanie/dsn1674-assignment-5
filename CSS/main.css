@@ -22,7 +22,8 @@ h2{
 
 header {
 	background-color: #cd5b34;
-	padding: 0.5em;
+	margin: 0em;
+	padding-top: 1em;
 }
 
 figcaption {
@@ -53,25 +54,24 @@ div {
 
 ol{
 	list-style-type:none;
-	padding:0;
+	padding:0em;
 	text-align: center;
+	overflow: hidden;
+	list-style-type: none;
 }
 
 ol a {
-	padding: 0.5rem 0.75rem;
 	color: white;
 	text-decoration: none;
-	border-radius: 10px;
-	text-align: center;
-	display: inline-block;
+
 }
 
 ol li{
 	border: 2px solid #a93f35;
-	padding: 0em 2em ;
-	display:inline-block;
-
-
+	padding: 0.6em 2em ;
+	display: block;
+	float: left;
+	width: 33.33333333%;
 }
 
 ol li:hover {
