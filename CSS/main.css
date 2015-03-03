@@ -16,7 +16,7 @@ h1 {
 	text-align: center;
 }
 
-h2{
+h2 {
 	color:white;
 }
 
@@ -30,44 +30,97 @@ figcaption {
 	background-color:#d98156;
 }
 
-footer{
+footer {
 	background-color:#cd5b34;
 	color: #dda999;
+	text-align:center;
+	clear: both;
 }
 
 div {
-	background-color:#d98156
+	background-color:#d98156;
+	clear:left;
 }
 
-.oats{
+.oats {
 	color:white;
+	text-align: center;
+	font-style:italic;
 }
 
-.corn{
+.corn {
 	color:white;
+	text-align: center;
+	font-style:italic;
 }
 
-.rice{
+.rice {
 	color:white;
+	text-align: center;
+	font-style: italic;
 }
 
-.imagecereal{
-	width: 40%;
-	float: right;
-}
-
-.imagegrains{
+.imagegrains {
 	width: 40%;
 	float: left;
+	margin-right: 1em;
+}
+
+.imagecereal {
+	width: 40%;
+	float: right;
+	margin-left: .5em;
 }
 
 .imagequinoa {
 	float: right;
 	clear: right;
+	margin-top: 1em;
+	margin-left:.5em;
 	width: 40%
 }
 
-ol{
+.cereal {
+	text-align:center;
+	padding:1em;
+}
+
+.peanut {
+	width: 30%;
+	float:left;
+	clear:left;
+	margin-right: .5em;
+	margin-bottom: .5em;
+}
+
+.beans {
+	width: 30%;
+	float: left;
+	margin-right: .5em;
+	clear:left;
+	margin-bottom: .5em;
+}
+
+.lentils {
+	width: 30%;
+	float: left;
+	margin-right: .5em;
+	clear:left;
+	margin-bottom: .5em;
+}
+
+.right{
+	width:16%;
+	float:right;
+}
+
+.left{
+width:16%;
+float:left;
+clear:left;
+}
+
+ol {
 	list-style-type:none;
 	padding:0em;
 	text-align: center;
@@ -78,10 +131,9 @@ ol{
 ol a {
 	color: white;
 	text-decoration: none;
-
 }
 
-ol li{
+ol li {
 	border: 2px solid #a93f35;
 	padding: 0.6em 1em ;
 	display: block;
@@ -91,4 +143,4 @@ ol li{
 
 ol li:hover {
 	background-color: #a93f35;
-
+}
