@@ -51,6 +51,21 @@ div {
 	color:white;
 }
 
+.imagecereal{
+	width: 40%;
+	float: right;
+}
+
+.imagegrains{
+	width: 40%;
+	float: left;
+}
+
+.imagequinoa {
+	float: right;
+	clear: right;
+	width: 40%
+}
 
 ol{
 	list-style-type:none;
@@ -76,3 +91,4 @@ ol li{
 
 ol li:hover {
 	background-color: #a93f35;
+
