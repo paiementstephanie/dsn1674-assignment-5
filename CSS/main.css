@@ -166,6 +166,10 @@ div {
 	text-align: center;
 }
 
+footer{
+	padding:1em;
+}
+
 ol {
 	list-style-type:none;
 	padding:0em;
