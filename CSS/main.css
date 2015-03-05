@@ -44,12 +44,19 @@ div {
 	margin:0;
 }
 
+.p2{
+	clear:left;
+	padding-top: .5em;
+	padding-left:.5em;
+}
+
 .oats {
 	color:white;
 	text-align: center;
 	font-style:italic;
 	width: 50%;
 	float:right;
+	clear: both;
 
 }
 
@@ -91,12 +98,14 @@ div {
 	width: 40%;
 	float: left;
 	margin-right: 1em;
+	padding-left:.5em;
 }
 
 .imagecereal {
 	width: 40%;
 	float: right;
 	margin-left: .5em;
+	padding-right:.5em;
 }
 
 .imagequinoa {
@@ -105,7 +114,9 @@ div {
 	margin-top: 1em;
 	margin-left:.5em;
 	margin-bottom: 1em;
+	padding-right: .5em;
 	width: 40%
+
 }
 
 .cereal {
@@ -144,14 +155,15 @@ div {
 }
 
 .left {
-width:60px;
-float:left;
-padding-top: 1em;
+	width:60px;
+	float:left;
+	padding-top: 1em;
 }
 
 .legumes{
 	padding:0em;
 	margin:0em;
+	text-align: center;
 }
 
 ol {
@@ -206,4 +218,8 @@ ul img{
 	width:30%;
 	float:left;
 	margin:0em 0.5em 1em 1em;
+}
+
+h3{
+	text-align:center;
 }
