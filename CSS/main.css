@@ -42,6 +42,7 @@ div {
 	background-color:#d98156;
 	clear:both;
 	margin:0;
+	overflow: hidden;
 }
 
 .p2{
@@ -55,14 +56,13 @@ div {
 	text-align: center;
 	font-style:italic;
 	width: 50%;
-	float:right;
-	clear: both;
-
+-float:right;
 }
 
 .oats1 {
 	margin:0em;
-	display:inline-block;
+	float:right;
+
 }
 
 .corn {
@@ -86,12 +86,14 @@ div {
 	width:50%;
 	float:left;
 	display:inline-block;
+	clear:left;
 }
 
 .rice1{
 	margin:0em;
 	display:inline-block;
-	overflow:hidden;
+	float:left;
+	clear:left;
 }
 
 .imagegrains {
@@ -116,7 +118,6 @@ div {
 	margin-bottom: 1em;
 	padding-right: .5em;
 	width: 40%
-
 }
 
 .cereal {
@@ -165,6 +166,7 @@ div {
 	margin:0em;
 	text-align: center;
 }
+
 
 footer{
 	padding:1em;
