@@ -55,6 +55,7 @@ div {
 	float:right;
 	display:inline-block;
 	padding:0em;
+	margin:0em;
 	text-align: center;
 }
 
@@ -63,8 +64,6 @@ div {
 	text-align: center;
 	font-style:italic;
 	width:100%;
-	margin:0em;
-	padding:0em;
 }
 
 .corn1{
@@ -82,12 +81,6 @@ div {
 	width:50%;
 }
 
-.rice1 {
-	float:left;
-	display:inline-block;
-	margin:0em;
-	padding:0em;
-}
 
 .imagegrains {
 	width: 40%;
@@ -151,6 +144,11 @@ float:left;
 padding-top: 1em;
 }
 
+.legumes{
+	padding:0em;
+	margin:0em;
+}
+
 ol {
 	list-style-type:none;
 	padding:0em;
@@ -178,4 +176,9 @@ ol li:hover {
 
 figcaption{
 	text-align:center;
+	font-style:italic;
+}
+
+dt{
+	font-style:italic;
 }
