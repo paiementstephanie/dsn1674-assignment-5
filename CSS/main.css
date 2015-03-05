@@ -41,25 +41,52 @@ footer {
 div {
 	background-color:#d98156;
 	clear:both;
+	margin:0;
 }
 
 .oats {
 	color:white;
 	text-align: center;
 	font-style:italic;
+	width: 50%;
+}
+
+.oats1 {
+	float:right;
+	display:inline-block;
+	padding:0em;
+	text-align: center;
 }
 
 .corn {
 	color:white;
 	text-align: center;
 	font-style:italic;
-	margin:0;
+	width:100%;
+	margin:0em;
+	padding:0em;
+}
+
+.corn1{
+	margin:0em;
+	padding:0em;
+	float:left;
+	text-align:center;
+	display:inline-block;
 }
 
 .rice {
 	color:white;
 	text-align: center;
 	font-style: italic;
+	width:50%;
+}
+
+.rice1 {
+	float:left;
+	display:inline-block;
+	margin:0em;
+	padding:0em;
 }
 
 .imagegrains {
@@ -112,17 +139,16 @@ div {
 	margin-bottom: .5em;
 }
 
-.right{
+.right {
 	width:60px;
 	float:right;
 	padding-top:1em;
 }
 
-.left{
+.left {
 width:60px;
 float:left;
 padding-top: 1em;
-
 }
 
 ol {
@@ -148,4 +174,8 @@ ol li {
 
 ol li:hover {
 	background-color: #a93f35;
+}
+
+figcaption{
+	text-align:center;
 }
