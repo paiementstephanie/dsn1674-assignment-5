@@ -11,6 +11,10 @@ font-family: 'Merriweather', serif;
 margin: 0;
 }
 
+img{
+	width:100%;
+}
+
 h1 {
 	color: white;
 	background-color:#cd5b34;
@@ -55,14 +59,12 @@ div {
 	color:white;
 	text-align: center;
 	font-style:italic;
-	width: 50%;
--float:right;
 }
 
 .oats1 {
 	margin:0em;
 	float:right;
-
+	width: 50%;
 }
 
 .corn {
@@ -83,8 +85,6 @@ div {
 .rice {
 	text-align: center;
 	font-style: italic;
-	width:50%;
-	float:left;
 	display:inline-block;
 	clear:left;
 }
@@ -94,6 +94,7 @@ div {
 	display:inline-block;
 	float:left;
 	clear:left;
+	width:50%;
 }
 
 .imagegrains {
